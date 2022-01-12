@@ -1,0 +1,78 @@
+@charset "utf-8";
+body {
+  background: #d5ecfc;
+  color: rgb(80, 80, 80);
+}
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  background: #04489b;
+  padding: 15px;
+}
+a {
+  text-decoration: none;
+}
+.center{
+  margin: 30px;
+  text-align: center;
+}
+.center a{
+  background: #0d68d8;
+  border: #fff 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0 10px;
+}
+input {
+  border: 0.5px solid rgb(146, 146, 146);
+  border-radius: 3px;
+  margin: 15px 0;
+  display: block;
+}
+
+#content {
+  width: 800px;
+  margin: 30px auto !important;
+  overflow: hidden;
+}
+table {
+  float: left;
+  max-width: 520px;
+}
+#search {
+  float: right;
+  max-width: 260px;
+  border: 1px solid #04489b;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+td {
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+  border: 0.5px solid gray;
+  margin: 0;
+}
+
+.name {
+  width: 150px;
+}
+.pass {
+  width: 150px;
+}
+.up {
+  width: 100px;
+}
+.dele {
+  width: 100px;
+}
+tr:first-child .id,
+tr:first-child .name,
+tr:first-child .mail,
+tr:first-child .up,
+tr:first-child .dele {
+  background: #0d68d8;
+  color: #fff;
+}
